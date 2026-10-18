@@ -1,0 +1,25 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+# 本地编译日志（CLI 验证用，不属于仓库内容）
+*.log
+tmp-*.png
+
+# 构建产物与签名材料：绝不入库
+*.app
+*.hap
+*.hsp
+*.p12
+*.cer
+*.p7b
+keystore-password.txt
+signature/

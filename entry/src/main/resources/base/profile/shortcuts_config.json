@@ -1,0 +1,34 @@
+{
+  "shortcuts": [
+    {
+      "shortcutId": "new_idea",
+      "label": "$string:shortcut_new_idea",
+      "icon": "$media:shortcut_capture",
+      "wants": [
+        {
+          "bundleName": "com.lobing.musehroom",
+          "moduleName": "entry",
+          "abilityName": "EntryAbility",
+          "parameters": {
+            "action": "capture"
+          }
+        }
+      ]
+    },
+    {
+      "shortcutId": "review",
+      "label": "$string:shortcut_review",
+      "icon": "$media:shortcut_review",
+      "wants": [
+        {
+          "bundleName": "com.lobing.musehroom",
+          "moduleName": "entry",
+          "abilityName": "EntryAbility",
+          "parameters": {
+            "action": "review"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "app": {
+    // ---------------------------------------------------------------------------------------
+    // NOTE: this file is deliberately pure ASCII (a GBK Windows console does not survive
+    // non-ASCII read/write round trips). Build instructions live in README.md.
+    //
+    // There is deliberately NO signingConfigs here: signing material is personal and must
+    // never be committed. Before building/running, let DevEco Studio generate it locally:
+    //   File > Project Structure > Signing Configs > "Automatically generate signature"
+    // DevEco then adds a signingConfigs entry and a "signingConfig" reference to this file,
+    // which will show up as a local diff - do not commit that diff.
+    //
+    // Release packs with an AGC certificate are produced by tools/build-release-app.ps1,
+    // which takes the release directory from MUSEHROOM_RELEASE_DIR.
+    // ---------------------------------------------------------------------------------------
+    "products": [
+      {
+        "name": "default",
+        "targetSdkVersion": "6.1.1(24)",
+        "compatibleSdkVersion": "6.1.1(24)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

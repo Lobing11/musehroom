@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#F4F6F4"
+    },
+    {
+      "name": "card_surface",
+      "value": "#F7FAF8"
+    },
+    {
+      "name": "card_text",
+      "value": "#1B211D"
+    },
+    {
+      "name": "card_text_soft",
+      "value": "#7C877F"
+    }
+  ]
+}

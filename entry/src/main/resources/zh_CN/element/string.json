@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "灵感菇主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "灵感菇：灵感碎片捕捉与回顾"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "灵感菇 - 记灵感"
+    },
+    {
+      "name": "shortcut_new_idea",
+      "value": "记一条灵感"
+    },
+    {
+      "name": "shortcut_review",
+      "value": "灵光再现"
+    },
+    {
+      "name": "WidgetAbility_label",
+      "value": "灵感卡片"
+    },
+    {
+      "name": "WidgetAbility_desc",
+      "value": "桌面卡片：随机回顾与最近一条"
+    },
+    {
+      "name": "random_idea_card_display_name",
+      "value": "灵光再现"
+    },
+    {
+      "name": "random_idea_card_desc",
+      "value": "随机翻出一条旧灵感"
+    },
+    {
+      "name": "recent_idea_card_display_name",
+      "value": "最近想到"
+    },
+    {
+      "name": "recent_idea_card_desc",
+      "value": "最近一条灵感，并可从卡片直接记录"
+    },
+    {
+      "name": "permission_vibrate_reason",
+      "value": "记下灵感、切换置顶时用一次很短的振动做确认"
+    }
+  ]
+}

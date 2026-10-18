@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>灵感菇 隐私政策</title>
+<meta name="description" content="灵感菇（Musehroom）隐私政策：不联网、不收集任何个人信息，内容只存在本机。">
+<style>
+  :root {
+    --bg: #F4F6F4;
+    --card: #FFFFFF;
+    --text: #1B2A22;
+    --text-soft: #5A6B62;
+    --accent: #2E9E6B;
+    --line: #E2EAE4;
+    --mark: #DCEFE4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10140F;
+      --card: #1A211B;
+      --text: #E7EFE9;
+      --text-soft: #A7B7AD;
+      --accent: #48B783;
+      --line: #2A332C;
+      --mark: #223A2C;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 24px 16px 56px;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.75 -apple-system, "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { margin: 8px 0 20px; }
+  .logo {
+    display: inline-block; width: 40px; height: 40px; border-radius: 11px;
+    background: linear-gradient(135deg, #48B783, #2E9E6B 60%, #1C7248);
+    position: relative; vertical-align: middle;
+  }
+  .logo::after {
+    content: ""; position: absolute; left: 9px; top: 12px; width: 22px; height: 9px;
+    border-radius: 11px 11px 4px 4px; background: #F7FBF8;
+  }
+  h1 { font-size: 22px; line-height: 1.4; margin: 12px 0 6px; }
+  .meta { color: var(--text-soft); font-size: 14px; margin: 0; }
+  article {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 4px 18px 18px; margin-top: 18px;
+  }
+  h2 { font-size: 17px; margin: 22px 0 6px; }
+  p, li { margin: 6px 0; }
+  ul { padding-left: 22px; }
+  strong { color: var(--text); }
+  .lead {
+    background: var(--mark); border-radius: 10px; padding: 12px 14px; margin: 14px 0 4px;
+  }
+  .lead p { margin: 0; }
+  code {
+    font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+    font-size: 0.92em; background: var(--mark); border-radius: 5px; padding: 1px 5px;
+  }
+  footer { color: var(--text-soft); font-size: 13px; margin-top: 22px; text-align: center; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="logo" aria-hidden="true"></span>
+    <h1>灵感菇 隐私政策</h1>
+    <p class="meta">生效日期：2026 年 10 月 5 日 · 适用应用：灵感菇（Musehroom，包名 <code>com.lobing.musehroom</code>）</p>
+  </header>
+
+  <article>
+    <p>灵感菇（以下简称「本应用」）尊重并保护你的隐私。本政策说明本应用如何处理你的信息。</p>
+
+    <div class="lead">
+      <p><strong>摘要</strong>：本应用<strong>不申请网络权限</strong>，不具备联网能力；<strong>不收集任何个人信息</strong>；你写下的内容只保存在这台设备的应用私有目录里；唯一申请的权限是「振动」，只用于操作时的触感确认。</p>
+    </div>
+
+    <h2>1. 我们收集的信息：无</h2>
+    <p>本应用不申请网络权限，不具备联网能力，因此不会、也无法把你的任何内容上传到服务器。我们不收集设备标识、位置、通讯录、剪贴板、相册或任何使用统计信息，也不集成任何广告、统计或分析 SDK。</p>
+
+    <h2>2. 你的内容存在哪里</h2>
+    <p>你写下的灵感保存在本应用的本地数据库（应用私有目录）中，仅本机可读。卸载应用或清除应用数据会删除这些内容，请提前通过导出功能备份。</p>
+
+    <h2>3. 导出与导入</h2>
+    <ul>
+      <li><strong>导出</strong>：JSON / Markdown 文件的保存位置由你通过系统「选择路径」对话框决定，保存后即由你完全掌控。</li>
+      <li><strong>导入</strong>：只有你主动选中的那一个文件会被读取，用于把内容合并进本地数据库。</li>
+    </ul>
+    <p>整个导出与导入过程没有网络参与，本应用也不会扫描你设备上的其它文件。</p>
+
+    <h2>4. 系统备份</h2>
+    <p>若你开启了系统的云备份，本应用的本地数据（含数据库与设置）可能被系统备份到你的个人云空间。这是系统能力，备份数据的加密与存储由系统负责，本应用不接触备份文件。</p>
+
+    <h2>5. 权限用途</h2>
+    <p>本应用仅申请「振动」权限（<code>ohos.permission.VIBRATE</code>），用于记录保存、置顶等操作时的一次极短触感确认，不涉及任何信息读取。该权限为普通权限，安装即授予，不会弹窗询问；不授予只是没有触感反馈。</p>
+
+    <h2>6. 第三方 SDK</h2>
+    <p>无。本应用不集成任何广告、统计或分析 SDK。</p>
+
+    <h2>7. 儿童隐私</h2>
+    <p>本应用不收集任何信息，因此不涉及儿童个人信息的收集。</p>
+
+    <h2>8. 政策变更</h2>
+    <p>若未来功能变化导致本政策调整，我们会在应用更新说明中指明，并更新本页顶部的生效日期。</p>
+
+    <h2>9. 联系方式</h2>
+    <p>如有疑问，请通过应用市场页面的开发者联系方式与我们联系。</p>
+  </article>
+
+  <footer>
+    本页即灵感菇的应用市场「隐私政策 URL」内容 · 正文源文件：仓库内 <code>docs/PRIVACY_POLICY.md</code>
+  </footer>
+</main>
+</body>
+</html>

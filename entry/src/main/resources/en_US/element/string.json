@@ -1,0 +1,52 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Musehroom main module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Musehroom: capture and revisit your ideas"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Musehroom"
+    },
+    {
+      "name": "shortcut_new_idea",
+      "value": "New idea"
+    },
+    {
+      "name": "shortcut_review",
+      "value": "Random review"
+    },
+    {
+      "name": "WidgetAbility_label",
+      "value": "Idea cards"
+    },
+    {
+      "name": "WidgetAbility_desc",
+      "value": "Home screen cards: random revisit and latest idea"
+    },
+    {
+      "name": "random_idea_card_display_name",
+      "value": "Random revisit"
+    },
+    {
+      "name": "random_idea_card_desc",
+      "value": "Flip out one old idea at random"
+    },
+    {
+      "name": "recent_idea_card_display_name",
+      "value": "Latest idea"
+    },
+    {
+      "name": "recent_idea_card_desc",
+      "value": "Your latest idea, with a shortcut to capture"
+    },
+    {
+      "name": "permission_vibrate_reason",
+      "value": "A very short vibration to confirm saving an idea or pinning one"
+    }
+  ]
+}

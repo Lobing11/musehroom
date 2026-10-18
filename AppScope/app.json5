@@ -1,0 +1,11 @@
+{
+  "app": {
+    "bundleName": "com.lobing.musehroom",
+    "vendor": "Musehroom",
+    "versionCode": 1002000,
+    "versionName": "1.2.0",
+    "buildVersion": "1",
+    "icon": "$media:layered_image",
+    "label": "$string:app_name"
+  }
+}
